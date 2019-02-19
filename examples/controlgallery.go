@@ -5,8 +5,8 @@
 package main
 
 import (
-	"github.com/andlabs/ui"
-	_ "github.com/andlabs/ui/winmanifest"
+	"github.com/alevinetx/ui"
+	_ "github.com/alevinetx/ui/winmanifest"
 )
 
 var mainwin *ui.Window
@@ -30,7 +30,7 @@ func makeBasicControlsPage() ui.Control {
 	group.SetMargined(true)
 	vbox.Append(group, true)
 
-group.SetChild(ui.NewNonWrappingMultilineEntry())
+	group.SetChild(ui.NewNonWrappingMultilineEntry())
 
 	entryForm := ui.NewForm()
 	entryForm.SetPadded(true)
