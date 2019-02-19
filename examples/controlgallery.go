@@ -1,6 +1,6 @@
 // 12 august 2018
 
-// +build OMIT
+// put a plus here: build OMIT
 
 package main
 
